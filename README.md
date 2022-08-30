@@ -1,5 +1,5 @@
 # Code Artifacts
-Code artifacts for the submission "Mind the Gap! A Study on the Transferability of Virtual vs Physical-world Testing of Autonomous Driving Systems"
+Code artifacts for the paper "Mind the Gap! A Study on the Transferability of Virtual vs Physical-world Testing of Autonomous Driving Systems", published in the IEEE Transactions on Software Engineering (TSE). A preprint is available [here](https://tsigalko18.github.io/assets/pdf/2022-Stocco-TSE.pdf).
 
 ## Demos
 
@@ -142,4 +142,20 @@ python manage.py drive --model [models/<model-name.h5>] [--corruption=<corruptio
 
 ```
 python manage.py drive --model [models/<model-name.h5>] [--useadversarial] [--advimage=<file>]  [--severity=<severity>] [--delay=<delay>]
+```
+
+## Reference
+
+If you use our work in your research, or it helps it, or if you simply like it, please cite it in your publications. 
+Here is an example BibTeX entry:
+
+```
+@article{2022-Stocco-TSE,
+  author    = {Andrea Stocco and Brian Pulfer and Paolo Tonella},
+  title     = {{Mind the Gap! A Study on the Transferability of Virtual vs Physical-world Testing of Autonomous Driving Systems}},
+  journal   = {IEEE Transactions on Software Engineering},
+  year      = {2022},
+  url       = {https://ieeexplore.ieee.org/document/9869302},
+  publisher = {IEEE}
+}
 ```
